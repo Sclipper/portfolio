@@ -44,7 +44,7 @@ Name: Tsvetomir Batinov, goes by Tsveto. Domain tsveto.com. Title from CV: Senio
 ## Evidence on Hand
 
 - CV: /mnt/project-files/cv/cv-source.html (roles, dates, stack).
-- TaxMate (Sclipper/taxmate-api, taxmate-dashboard, taxmate-ocr, taxmate-mcp): NestJS + Prisma API with ~78 domain modules, 149 Prisma models, ~270k lines of TypeScript in src (excluding specs), 445+ spec files. Document AI + OpenAI fallback OCR, Qdrant classification, IRIS open banking (the CV says Salt Edge; the code uses IRIS), NAP VAT files (PRODAGBI/POKUPKI/DEKLAR in Windows-1251), payroll, Stripe plans, OAuth/OIDC MCP server.
+- TaxMate (Sclipper/taxmate-api, taxmate-dashboard, taxmate-ocr, taxmate-mcp): NestJS + Prisma API with ~78 domain modules, 149 Prisma models, ~270k lines of TypeScript in src (excluding specs), 445+ spec files. Document AI + OpenAI fallback OCR, Qdrant classification, open banking (the provider is IRIS, but Tsveto wants the site to name no provider: say "open banking" only), NAP VAT files (PRODAGBI/POKUPKI/DEKLAR in Windows-1251), payroll, Stripe plans, OAuth/OIDC MCP server.
 - Намери фотограф + nameri-engine (DeltaForgeBG): photography marketplace on its own NestJS engine (the other two Намери sites are standalone apps) for requests, dispatch, offers, contact unlock, bookings, reviews; Stripe booking-fee pilot (Nov 2026).
 - Намери Счетоводител (Sclipper/find-accountant): accountant RFP platform, Next.js 15, Claude brief enrichment, weighted proposal ranking.
 - Намери чистач (DeltaForgeBG/find-cleaner): home-cleaning marketplace in Sofia, token-link auth, two-sided ratings.

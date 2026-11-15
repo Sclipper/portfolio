@@ -114,7 +114,7 @@
     <h2 class="label__title" id="w1">TaxMate</h2>
     <p class="label__date">2024–present</p>
     <dl class="label__meta">
-      <div><dt>Medium</dt><dd>NestJS, Prisma, PostgreSQL, BullMQ, React 18 with TanStack, Google Document AI, OpenAI, Qdrant, IRIS open banking, Stripe</dd></div>
+      <div><dt>Medium</dt><dd>NestJS, Prisma, PostgreSQL, BullMQ, React 18 with TanStack, Google Document AI, OpenAI, Qdrant, open banking, Stripe</dd></div>
       <div><dt>Dimensions</dt><dd><span class="num">270,000</span> lines of TypeScript in the API; <span class="num">149</span> data models; <span class="num">445</span> test files</dd></div>
       <div><dt>Role</dt><dd>Founder and CEO. Designed and built the platform.</dd></div>
       <div><dt>Visit</dt><dd><a href="https://taxmate.bg">taxmate.bg</a></dd></div>
@@ -124,7 +124,7 @@
   <div class="walltext work__text">
     <p>Bulgarian small businesses still do their books in desktop software from the 2000s and email PDFs to an accountant. TaxMate replaces that with one web app: issue invoices, record expenses, reconcile the bank, and download the VAT return ready for the National Revenue Agency.</p>
     <p>The hard part is the expense side. A supplier invoice arrives as a PDF or a phone photo. Google Document AI extracts the supplier, line items, totals and VAT, with an OpenAI fallback for documents it cannot read. Each line is then classified to the company's chart of accounts using embeddings in Qdrant, the supplier is matched or created from its VAT number, and a person reviews the draft before anything is posted. Postings go through configurable journal blueprints, so every document produces correct double-entry bookkeeping.</p>
-    <p>The output has to satisfy the tax office byte for byte: the sales and purchase journals and the declaration are generated as the exact fixed-width files the NRA portal accepts, in Windows-1251. Around it sit bank connections through IRIS open banking with suggested invoice matches, payroll, recurring invoices, an AI-assisted bulk import, scoped API tokens and Stripe plans with usage limits.</p>
+    <p>The output has to satisfy the tax office byte for byte: the sales and purchase journals and the declaration are generated as the exact fixed-width files the NRA portal accepts, in Windows-1251. Around it sit open-banking connections with suggested invoice matches, payroll, recurring invoices, an AI-assisted bulk import, scoped API tokens and Stripe plans with usage limits.</p>
   </div>
 </article>
 
