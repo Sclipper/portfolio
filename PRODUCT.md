@@ -36,7 +36,6 @@ Read on desktop between other tabs; sometimes opened on a phone from LinkedIn. R
 - Hyperion is a client (quant hedge fund): describe architecture and responsibilities only. No code, no strategy details, no performance numbers.
 - Toggl: plain contract developer role; mention, do not embellish.
 - No fabricated metrics, testimonials, users or revenue. Numbers used must be measured from the repos (lines of code, modules, test files) or the CV.
-- "fetchpaw" was named by Tsveto but no repo was found; undecided.
 
 ## Brand Commitments
 
@@ -49,6 +48,7 @@ Name: Tsvetomir Batinov, goes by Tsveto. Domain tsveto.com. Title from CV: Senio
 - Намери фотограф + nameri-engine (DeltaForgeBG): photography marketplace on its own NestJS engine (the other two Намери sites are standalone apps) for requests, dispatch, offers, contact unlock, bookings, reviews; Stripe booking-fee pilot (Nov 2026).
 - Намери Счетоводител (Sclipper/find-accountant): accountant RFP platform, Next.js 15, Claude brief enrichment, weighted proposal ranking.
 - Намери чистач (DeltaForgeBG/find-cleaner): home-cleaning marketplace in Sofia, token-link auth, two-sided ratings.
+- Fetchpaw (DeltaForgeBG/invoice-fetcher, fetchpaw.app): Chrome/Edge MV3 extension that collects supplier invoices in the user's signed-in browser; Jev picks each click, remembered invoice pages, asks before risky clicks, bank-statement gap check. ~10.6k lines TS in the extension, ~1.7k in the Node/Postgres/Stripe server; e2e against 5 fake portals. Plates are the site's own panel screenshots (fake data).
 - opencal-sync (public, Sclipper/opencal-sync): self-hosted OneCal alternative, Google/Outlook mirroring via Composio, Docker + SQLite.
 - Hyperion (HyperionQS org): research ingestion, LLM agents, LEAN engine, IB brokerage, gateways, order ledger, reconciler, data lake, Monte Carlo / factor research.
 - Risika: CV facts only (team lead, React/D3, Node, AWS).

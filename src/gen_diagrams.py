@@ -79,7 +79,7 @@ h.arrow([(X[4]+W/2, 276), (X[4]+W/2, 302)], "fills", X[4]+W/2+12, 294)
 h.zone(40, 486, 1184, 108, "Operations")
 for i, (t, sub) in enumerate([("Market-status monitor", "opens, halts, holidays"), ("Logging", "structured, per service"), ("Track record", "dashboards, reports"), ("Slack assistant", "plain-language answers")]):
     h.node(62 + i*292, 508, 270, 66, t, [sub], cls="n--small")
-h.block(844, 650, [("Sheet", "3 of 8"), ("Work", "Hyperion, systems schematic"), ("Scale", "None. Boxes are duties"), ("Withheld", "Code, strategy, results")])
+h.block(844, 650, [("Sheet", "3 of 9"), ("Work", "Hyperion, systems schematic"), ("Scale", "None. Boxes are duties"), ("Withheld", "Code, strategy, results")])
 h.text(40, 670, "Legend", "lg")
 h.out.append('<rect class="n--accent lgbox" x="40" y="688" width="24" height="17" rx="2"/>')
 h.text(78, 702, "where language models do the work", "s")
@@ -108,7 +108,7 @@ for a, b, lab, acc, dash in rows:
     end = xb - 6 if xb > xa else xb + 6
     m.arrow([(xa, y), (end, y)], lab, min(xa, xb) + 16, y - 12, accent=acc, dashed=dash)
     y += 66
-m.block(844, 640, [("Sheet", "2 of 8"), ("Work", "TaxMate for AI assistants"), ("Scopes", "mcp:read, mcp:write")])
+m.block(844, 640, [("Sheet", "2 of 9"), ("Work", "TaxMate for AI assistants"), ("Scopes", "mcp:read, mcp:write")])
 m.text(40, 662, "Refresh tokens rotate; reuse or a wider scope is refused.", "s")
 m.text(40, 688, "Revoking a grant stops the very next call.", "s")
 
@@ -128,7 +128,7 @@ o.arrow([(516, 141), (594, 141)])
 o.arrow([(774, 174), (774, 190)]); o.arrow([(774, 278), (774, 294)], accent=True)
 o.arrow([(598, 350), (545, 350), (545, 290), (520, 290)], "writes back", 470, 378)
 o.arrow([(974, 156), (1020, 156)])
-o.block(844, 460, [("Sheet", "7 of 8"), ("Work", "opencal-sync, data flow"), ("Licence", "MIT")])
+o.block(844, 460, [("Sheet", "8 of 9"), ("Work", "opencal-sync, data flow"), ("Licence", "MIT")])
 
 import json
 open("diagrams.json", "w").write(json.dumps({"hyperion": h.svg("dg-hyperion", "x"), "mcp": m.svg("dg-mcp", "x"), "opencal": o.svg("dg-opencal", "x")}))

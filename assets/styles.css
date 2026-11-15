@@ -407,3 +407,8 @@ em { font-style: italic; }
 .film.is-enhanced video { cursor: pointer; }
 .film:not(.is-enhanced) .film__play { display: none; }
 .work__plates { grid-template-columns: minmax(0, 1fr); } .plate { min-width: 0; }
+
+/* Two app panels of equal weight (Fetchpaw's side panel) */
+.plate-pair--panels { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.plate--panel > img { border-radius: 0.75rem; }
+@media (max-width: 640px) { .plate-pair--panels { grid-template-columns: minmax(0, 1fr); } .plate--panel { max-width: 82%; } .plate--panel + .plate--panel { justify-self: end; } }
